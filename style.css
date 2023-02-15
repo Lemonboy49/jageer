@@ -67,11 +67,14 @@
 .div_img {
   width: 100%;
   position: relative;
+  padding-top: 5rem;
   right: 5rem;
 }
 
 .hero_1 {
+  position: absolute;
   width: 100%;
+  top: 1rem;
 }
 
 .hero_2 {
@@ -84,6 +87,45 @@
 .hero_3 {
   position: absolute;
   width: 70%;
-  right: 1rem;
-  top: 11rem;
+  right: -2rem;
+  top: 12rem;
+}
+
+/* link */
+.menu_link:link,
+.menu_link:visited {
+  color: #212529;
+  font-size: 1.1rem;
+}
+
+.home_btn:link,
+.home_btn:visited {
+  color: #16451f;
+  font-weight: 600;
+}
+
+.home_btn:hover {
+  animation: animation 2s;
+}
+
+.join {
+  outline: 3px solid #2b8a3e;
+  border-radius: 10%;
+  outline-offset: 5px;
+}
+
+@keyframes animation {
+  0% {
+  }
+
+  100% {
+    border-radius: 1em;
+    border-top: 0.1em solid #2f56b0;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 0.14em;
+    left: 0;
+    transition: right 0.4s cubic-bezier(0, 0.5, 0, 1);
+  }
 }
