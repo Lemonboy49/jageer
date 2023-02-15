@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,12 +12,26 @@ body {
 /* Main */
 .header {
   z-index: 100;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(21, 125, 42, 0.5),
+      rgba(21, 125, 42, 0.5),
+      rgba(21, 125, 42, 0.5)
+    ),
+    url("images/hero1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 7rem;
+  height: 5rem;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 5rem;
   font: 1.6rem;
 }
 
@@ -25,11 +40,11 @@ body {
   margin: 0;
 }
 
-.menu_list{
+.menu_list {
   list-style-type: none;
 }
 
-.menu_child{
+.menu_child {
   padding-right: 2rem;
   list-style-type: none;
 }
