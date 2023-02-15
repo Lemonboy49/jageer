@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main */
+.header {
+  z-index: 100;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+  font: 1.6rem;
+}
+
+.menu_list {
+  display: flex;
+  margin: 0;
+}
+
+.menu_list{
+  list-style-type: none;
+}
+
+.menu_child{
+  padding-right: 2rem;
+  list-style-type: none;
+}
+
+.hero_img {
+  width: 100%;
+  height: 100vh;
+}
