@@ -1,0 +1,89 @@
+/* Main */
+.header {
+  z-index: 100;
+  width: 100%;
+  background-color: #b2f2bb;
+}
+
+.home {
+  background-color: #b2f2bb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+}
+
+.logo {
+  width: 5rem;
+  height: 3rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font: 1.6rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.menu_list {
+  display: flex;
+  margin: 0;
+}
+
+.menu_list {
+  list-style-type: none;
+}
+
+.menu_child {
+  padding-right: 2rem;
+  list-style-type: none;
+}
+
+.hero_img {
+  width: 100%;
+  height: 100vh;
+}
+
+.home_content {
+  position: relative;
+}
+
+.home_child {
+  padding: 2rem;
+}
+
+.primary_heading {
+  font-size: 5.2rem;
+  color: #212529;
+  line-height: 90%;
+}
+
+.heading_text {
+  font-size: 1.2rem;
+  position: relative;
+  top: -25px;
+}
+
+.div_img {
+  width: 100%;
+  position: relative;
+  right: 5rem;
+}
+
+.hero_1 {
+  width: 100%;
+}
+
+.hero_2 {
+  position: absolute;
+  width: 90%;
+  right: 10rem;
+  top: 8rem;
+}
+
+.hero_3 {
+  position: absolute;
+  width: 70%;
+  right: 1rem;
+  top: 11rem;
+}
